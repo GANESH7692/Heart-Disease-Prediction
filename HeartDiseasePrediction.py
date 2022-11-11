@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-heart_disease_model = pickle.load(open('C:/Users/ganes/OneDrive/Desktop/PROJECTS/HEART DISEASE PREDICTION/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('path','rb'))
 
 with st.sidebar:
     
